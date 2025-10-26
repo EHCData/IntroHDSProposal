@@ -1,0 +1,54 @@
+---
+title: "Proposal"
+author: "Emma Cliffe"
+date: "2025-10-26"
+output:
+  html_document:
+    df_print: paged
+  pdf_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Health care problem and target audience
+
+Research question: Do levels of prescription of drugs for anxiety, depression and psychosis in Scotland differ by deprivation index pre-Covid lockdown, during Covid lockdown and after Covid lockdowns.   
+
+Target audience: medical professionals who prescribe in Scotland. 
+
+## Data to be used
+
+The data to be used will be the ScotPHO Health & Wellbeing datasets 'Population prescribed drugs for anxiety, depression and psychosis' and demographic variables.  
+
+list the data you will use
+
+* Population prescribed drugs for anxiety/depression/psychosis
+  * Definition: Estimated number and percentage of population being prescribed drugs for anxiety, depression or psychosis.
+  * Data source: Public Health Scotland (Prescribing Information System)
+  * Numerator: Estimated number of people being prescribed drugs for anxiety, depression or psychosis.
+  * Denominator: Total population
+  * Methodology: CI is Wilson's Score method, there is no rounding, values less than 10 are suppressed, it is a percentage measure
+  * Age group is all
+  * Sex is all
+  * Available geographies are HSC locality, HSC partnership, Council area, Health board, Scotland
+  * Inequalities are People
+  * Notes: Individuals are indentified using counts of distinct CHI numbers associated with a prescription for one (or more) of the prescription items of interest. Unique CHI will be counted once per year and are assigned to geographies (e.g. NHS board/council) based on the postocde of residence at latest prescription. Dates based on prescription item paid date.
+
+https://data.gov.scot/coronavirus-covid-19/
+
+Time will be
+* Pre-2020
+* 2020 and 2021
+* Post-2021
+
+There is more than one indicator of inequality so I need to work that out
+I don't know what all the geographies are 
+What are all the NAs, are they are a given level
+
+## Planned data visualisation
+
+The planned visualisation is of ... 
+
+describe the data visualisation (you can describe it with words, or make a sketch).
