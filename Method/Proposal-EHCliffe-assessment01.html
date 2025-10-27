@@ -11,7 +11,7 @@
 
 <meta name="author" content="Emma Cliffe" />
 
-<meta name="date" content="2025-10-26" />
+<meta name="date" content="2025-10-27" />
 
 <title>Proposal</title>
 
@@ -1623,60 +1623,62 @@ display: none;
 
 <h1 class="title toc-ignore">Proposal</h1>
 <h4 class="author">Emma Cliffe</h4>
-<h4 class="date">2025-10-26</h4>
+<h4 class="date">2025-10-27</h4>
 
 </div>
 
 
 <div id="health-care-problem-and-target-audience" class="section level2">
 <h2>Health care problem and target audience</h2>
+<p>There is a rural divide in mental healthcare and these issues are
+particularly acute in the three most rural Health Boards: NHS Borders,
+Dumfries &amp; Galloway and Highland <a href="#fn1" class="footnote-ref" id="fnref1"><sup>1</sup></a>.</p>
+<p>Prescription levels of drugs for anxiety, depression and psychosis
+are known to be rising and there are systematic differences based on
+deprivation level. Professionals used to working in urban centres may be
+unsure whether these challenges are as relevant in rural areas.</p>
 <p>Research question: Do levels of prescription of drugs for anxiety,
-depression and psychosis in Scotland differ by deprivation index
-pre-Covid lockdown, during Covid lockdown and after Covid lockdowns.</p>
-<p>Target audience: medical professionals who prescribe in Scotland.</p>
+depression and psychosis differ between Scotland as a whole and the
+rural Health Boards of NHS Borders, Dumfries &amp; Galloway and
+Highland, over time and by deprivation level?</p>
+<p>Target audience: Medical and allied professionals moving to these
+rural Health Boards.</p>
 </div>
 <div id="data-to-be-used" class="section level2">
 <h2>Data to be used</h2>
-<p>The data to be used will be the ScotPHO Health &amp; Wellbeing
-datasets ‘Population prescribed drugs for anxiety, depression and
-psychosis’ and demographic variables.</p>
-<p>list the data you will use</p>
+<p>The data to be used will be from the ScotPHO Health &amp; Wellbeing
+dataset ‘Population prescribed drugs for anxiety, depression and
+psychosis’.</p>
+<p>Variables of interest:</p>
 <ul>
-<li>Population prescribed drugs for anxiety/depression/psychosis
-<ul>
-<li>Definition: Estimated number and percentage of population being
-prescribed drugs for anxiety, depression or psychosis.</li>
-<li>Data source: Public Health Scotland (Prescribing Information
-System)</li>
-<li>Numerator: Estimated number of people being prescribed drugs for
-anxiety, depression or psychosis.</li>
-<li>Denominator: Total population</li>
-<li>Methodology: CI is Wilson’s Score method, there is no rounding,
-values less than 10 are suppressed, it is a percentage measure</li>
-<li>Age group is all</li>
-<li>Sex is all</li>
-<li>Available geographies are HSC locality, HSC partnership, Council
-area, Health board, Scotland</li>
-<li>Inequalities are People</li>
-<li>Notes: Individuals are indentified using counts of distinct CHI
-numbers associated with a prescription for one (or more) of the
-prescription items of interest. Unique CHI will be counted once per year
-and are assigned to geographies (e.g. NHS board/council) based on the
-postocde of residence at latest prescription. Dates based on
-prescription item paid date.</li>
-</ul></li>
+<li>Area name</li>
+<li>Year</li>
+<li>Scottish Index of Multiple Deprivation (SIMD) quintile</li>
+<li>Percentage of Population prescribed drugs for
+anxiety/depression/psychosis with confidence interval (Wilson’s
+method)</li>
 </ul>
-<p><a href="https://data.gov.scot/coronavirus-covid-19/" class="uri">https://data.gov.scot/coronavirus-covid-19/</a></p>
-<p>Time will be * Pre-2020 * 2020 and 2021 * Post-2021</p>
-<p>There is more than one indicator of inequality so I need to work that
-out I don’t know what all the geographies are What are all the NAs, are
-they are a given level</p>
 </div>
-<div id="planned-data-visualisation" class="section level2">
-<h2>Planned data visualisation</h2>
-<p>The planned visualisation is of …</p>
-<p>describe the data visualisation (you can describe it with words, or
-make a sketch).</p>
+<div id="planned-data-visualisations" class="section level2">
+<h2>Planned data visualisations</h2>
+<p>Following Tufte, and keeping the professional audience in mind, the
+focus will be on clear, accurate presentation of all available data.</p>
+<ul>
+<li>Percentage of total, change over time by area: Comparison of
+Scotland as a whole, NHS Borders, Dumfries &amp; Galloway and Highland
+total percentage over time with confidence intervals (point and line
+plot with error bars)</li>
+<li>Percentage of quintile by NHS Board by time: visualisation of the
+interaction between level of deprivation and NHS Board in prescribing
+levels over time (presented as a grid of clustered bar charts with error
+bars)</li>
+</ul>
+</div>
+<div class="footnotes footnotes-end-of-document">
+<hr />
+<ol>
+<li id="fn1"><p>E.g. <a href="https://changemh.org/latest_news/the-rural-divide-camhs-in-scotland/" class="uri">https://changemh.org/latest_news/the-rural-divide-camhs-in-scotland/</a><a href="#fnref1" class="footnote-back">↩︎</a></p></li>
+</ol>
 </div>
 
 
