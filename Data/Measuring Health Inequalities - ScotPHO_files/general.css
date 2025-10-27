@@ -1,0 +1,457 @@
+.invalid
+{
+	border-color: #FF0000;
+}
+LABEL.invalid
+{
+	color: #FF0000;
+}
+/*Buttons*/
+#editor-xtd-buttons
+{
+	padding: 5px;
+}
+.button2-left, .button2-right, .button2-left DIV, .button2-right DIV
+{
+	float: left;
+}
+.button2-left A, .button2-right A, .button2-left SPAN, .button2-right SPAN
+{
+	display: block;
+	height: 22px;
+	float: left;
+	line-height: 22px;
+	font-size: 11px;
+	color: #666;
+	cursor: pointer;
+}
+.button2-left SPAN, .button2-right SPAN
+{
+	cursor: default;
+	color: #999;
+}
+.button2-left .page A, .button2-right .page A, .button2-left .page SPAN, .button2-right .page SPAN
+{
+	padding: 0 6px;
+}
+.page SPAN
+{
+	color: #000;
+	font-weight: bold;
+}
+.button2-left A:hover, .button2-right A:hover
+{
+	text-decoration: none;
+	color: #0B55C4;
+}
+.button2-left A, .button2-left SPAN
+{
+	padding: 0 24px 0 6px;
+}
+.button2-right A, .button2-right SPAN
+{
+	padding: 0 6px 0 24px;
+}
+.button2-left
+{
+	background: url(../images/j_button2_left.png) no-repeat;
+	float: left;
+	margin-left: 5px;
+}
+.button2-right
+{
+	background: url(../images/j_button2_right.png) no-repeat 100% 0;
+	float: left;
+	margin-left: 5px;
+}
+.button2-left .image
+{
+	background: url(../images/j_button2_image.png) no-repeat 100% 0;
+}
+.button2-left .readmore
+{
+	background: url(../images/j_button2_readmore.png) no-repeat 100% 0;
+}
+.button2-left .pagebreak
+{
+	background: url(../images/j_button2_pagebreak.png) no-repeat 100% 0;
+}
+.button2-left .blank
+{
+	background: url(../images/j_button2_blank.png) no-repeat 100% 0;
+}
+/*Tooltips*/
+DIV.tooltip
+{
+	float: left;
+	background: #FFC;
+	border: 1px solid #D4D5AA;
+	padding: 5px;
+	max-width: 200px;
+	z-index: 13000;
+}
+DIV.tooltip H4
+{
+	padding: 0;
+	margin: 0;
+	font-size: 95%;
+	font-weight: bold;
+	margin-top: -15px;
+	padding-top: 15px;
+	padding-bottom: 5px;
+	background: url(../images/selector-arrow.png) no-repeat;
+}
+DIV.tooltip P
+{
+	font-size: 90%;
+	margin: 0;
+}
+/*Caption fixes*/
+.img_caption.left
+{
+	float: left;
+	margin-right: 1em;
+}
+.img_caption.right
+{
+	float: right;
+	margin-left: 1em;
+}
+.img_caption.left P
+{
+	clear: left;
+	text-align: center;
+}
+.img_caption.right P
+{
+	clear: right;
+	text-align: center;
+}
+.img_caption
+{
+	text-align: center !important;
+}
+.img_caption.none
+{
+	margin-left: auto;
+	margin-right: auto;
+}
+.caption.left
+{
+	float: left;
+	margin-right: 1em;
+}
+.caption.right
+{
+	float: right;
+	margin-left: 1em;
+}
+.caption.left P
+{
+	clear: left;
+	text-align: center;
+}
+.caption.right P
+{
+	clear: right;
+	text-align: center;
+}
+.caption.none
+{
+	margin-left: auto;
+	margin-right: auto;
+}
+.caption
+{
+	text-align: center !important;
+}
+/*Calendar*/
+A IMG.calendar
+{
+	width: 16px;
+	height: 16px;
+	margin-left: 3px;
+	background: url(../images/calendar.png) no-repeat;
+	cursor: pointer;
+	vertical-align: middle;
+}
+/*List Styles - These are different styles of unordered lists*/
+UL.arrow, UL.arrow-big, UL.checkbox, UL.checkbox-big, UL.check, UL.check-big, UL.star, UL.star-big, UL.plus, UL.plus-big
+{
+	list-style: none;
+	margin: 10px 10px 10px 20px;
+	padding: 0px;
+}
+UL.arrow LI, UL.checkbox LI, UL.check LI, UL.star LI, UL.plus LI
+{
+	font-weight: bold;
+	line-height: 100%;
+	margin: 10px 0px;
+	padding: 7px 0px 6px 35px;
+}
+UL.arrow-big LI, UL.checkbox-big LI, UL.check-big LI, UL.star-big LI, UL.plus-big LI
+{
+	font-size: 200%;
+	font-weight: bold;
+	margin: 15px 0px;
+	padding: 15px 0px 15px 60px;
+}
+UL.arrow LI
+{
+	background: url(../images/content-images/list_arrow.png) no-repeat 0 0;
+}
+UL.arrow-big LI
+{
+	background: url(../images/content-images/list_arrow_big.png) no-repeat 0 0;
+}
+UL.checkbox LI
+{
+	background: url(../images/content-images/list_checkbox.png) no-repeat 0 0;
+}
+UL.checkbox-big LI
+{
+	background: url(../images/content-images/list_checkbox_big.png) no-repeat 0 0;
+}
+UL.check LI
+{
+	background: url(../images/content-images/list_check.png) no-repeat 0 0;
+}
+UL.check-big LI
+{
+	background: url(../images/content-images/list_check_big.png) no-repeat 0 0;
+}
+UL.star LI
+{
+	background: url(../images/content-images/list_star.png) no-repeat 0 0;
+}
+UL.star-big LI
+{
+	background: url(../images/content-images/list_star_big.png) no-repeat 0 0;
+}
+/*Info Boxes - these are used to provide a user with a snippet of information.*/
+SPAN.note, SPAN.info, SPAN.alert, SPAN.download, SPAN.tip
+{
+	display: block;
+}
+DIV.note, SPAN.note
+{
+	background: #F4F5F6;
+	border-bottom: 1px dotted #AAB4BE;
+	border-top: 1px dotted #AAB4BE;
+	margin: 10px 0px;
+	padding: 5px 10px;
+	text-align: justify;
+}
+DIV.info, SPAN.info, DIV.alert, SPAN.alert, DIV.download, SPAN.download, DIV.tip, SPAN.tip
+{
+	margin: 10px 0px;
+	padding: 7px 10px 7px 35px;
+}
+DIV.info, SPAN.info
+{
+	background: #F4F5F6 url(../images/content-images/div_info.png) no-repeat 3px 3px;
+	border-bottom: 1px dotted #AAB4BE;
+	border-top: 1px dotted #AAB4BE;
+}
+DIV.alert, SPAN.alert
+{
+	background: #FFF5EB url(../images/content-images/div_alert.png) no-repeat 3px 3px;
+	border-bottom: 1px dotted #FFB4A0;
+	border-top: 1px dotted #FFB4A0;
+}
+DIV.download, SPAN.download
+{
+	background: #F5FAEB url(../images/content-images/div_download.png) no-repeat 3px 3px;
+	border-bottom: 1px dotted #78BE5A;
+	border-top: 1px dotted #78BE5A;
+}
+DIV.tip, SPAN.tip
+{
+	background: #FFFDEB url(../images/content-images/div_tip.png) no-repeat 3px 3px;
+	border-bottom: 1px dotted #FFC864;
+	border-top: 1px dotted #FFC864;
+}
+/*Emphasis Styles - used for in-line styling of some types of text*/
+EM.box, EM.file, EM.directory
+{
+	font-style: normal;
+}
+EM.box
+{
+	padding: 0px 2px;
+	background: #F4F5F6;
+	border: 1px dotted #AAB4BE;
+}
+EM.file
+{
+	padding: 0px 0px 0px 13px;
+	background: transparent url(../images/content-images/em_file.png) no-repeat 0 1px;
+}
+EM.directory
+{
+	padding: 0px 0px 0px 16px;
+	background: transparent url(../images/content-images/em_directory.png) no-repeat 0 1px;
+}
+/*Blockquote Styles - used for quotes*/
+BLOCKQUOTE.quotation
+{
+	margin: 10px 0px;
+	padding: 10px 35px;
+	border: none;
+	background: url(../images/content-images/blockquote_start.png) no-repeat 0 0;
+	text-align: justify;
+	font-style: italic;
+}
+BLOCKQUOTE.quotation P
+{
+	margin: 0px -35px -10px 0px;
+	padding: 0px 35px 10px 0px;
+	background: url(../images/content-images/blockquote_end.png) no-repeat 100% 100%;
+}
+BLOCKQUOTE.quotation-big
+{
+	margin: 10px 0px;
+	padding: 50px;
+	border: none;
+	background: url(../images/content-images/blockquote_big_start.png) no-repeat 0 0;
+	font-size: 300%;
+	text-transform: uppercase;
+	font-weight: bold;
+	line-height: 100%;
+	text-align: left;
+	font-style: italic;
+}
+BLOCKQUOTE.quotation-big P
+{
+	margin: 0px -50px -50px 0px;
+	padding: 0px 30px 50px 0px;
+	background: url(../images/content-images/blockquote_big_end.png) no-repeat 100% 100%;
+}
+BLOCKQUOTE.banner-quotation
+{
+	margin: 10px 20px;
+	padding: 10px 35px;
+	border: none;
+	background: url(../images/content-images/blockquote_start.png) no-repeat 0 0;
+	text-align: justify;
+	font-style: italic;
+}
+BLOCKQUOTE.banner-quotation P
+{
+	margin: 0px -35px -10px 0px;
+	padding: 0px 35px 10px 0px;
+	background: url(../images/content-images/blockquote_end.png) no-repeat 100% 100%;
+}
+BLOCKQUOTE.banner-quotation-big
+{
+	margin: 10px 0px;
+	padding: 50px;
+	border: none;
+	background: url(../images/content-images/blockquote_big_start.png) no-repeat 0 0;
+	font-size: 300%;
+	text-transform: uppercase;
+	font-weight: bold;
+	line-height: 100%;
+	text-align: left;
+	font-style: italic;
+}
+BLOCKQUOTE.banner-quotation-big P
+{
+	margin: 0px -50px -50px 0px;
+	padding: 0px 30px 50px 0px;
+	background: url(../images/content-images/blockquote_big_end.png) no-repeat 100% 100%;
+}
+SPAN.quote-author
+{
+	font-style: normal;
+	font-size: 10px;
+	float: right;
+	/*[empty]text-align:;*/
+}
+/*Preformated Text Style - used for displaying things like code on a page*/
+PRE
+{
+	margin: 1em 0px;
+	padding: 0.5em 0 0.5em 1em;
+	border: 1px dotted #AAB4BE;
+	border-left: 20px solid #B4B4B4;
+	background: #F4F5F6;
+	font-size: 90%;
+/*Browser specific (not valid) styles to make preformatted text wrap
+
+
+
+white-space: pre-wrap;       /* css-3
+
+
+
+white-space: -moz-pre-wrap;  /* Mozilla, since 1999*/
+}
+/*Horizontal Rule Style*/
+HR
+{
+	height: 1px;
+	border-top: 1px dotted #E5D5ED;
+	border-bottom: none;
+	border-left: none;
+	border-right: none;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+/*Forms*/
+FIELDSET
+{
+	border: 1px solid #DCDFE1;
+}
+LEGEND
+{
+	background: url(swordwhite);
+}
+TEXTAREA, INPUT[type='text'], INPUT[type='password'], SELECT
+{
+	border: 1px solid #DCDFE1;
+	/*[disabled]background:#FFFFFF url(../images/search-back.png) no-repeat right;*/
+	color: #640097;
+}
+TEXTAREA:hover, INPUT[type='text']:hover, INPUT[type='password']:hover, SELECT:hover
+{
+	border-color: #DCDFE1;
+}
+TEXTAREA:focus, INPUT[type='text']:focus, INPUT[type='password']:focus, SELECT:focus
+{
+	border-color: #D0B1DF;
+	outline: 2px solid #B8D3EC;
+}
+INPUT[type='button'], INPUT[type='submit'], INPUT[type='checkbox'], INPUT[type='image'], INPUT[type='radio'], INPUT[type='reset'], SELECT, BUTTON
+{
+	cursor: pointer;
+}
+INPUT[type='hidden']
+{
+	display: none;
+}
+FIELDSET
+{
+	padding: 0 1em 1em;
+}
+LEGEND
+{
+	padding: 0 0.8em;
+}
+TEXTAREA, INPUT[type='text'], INPUT[type='password']
+{
+	padding: 0.1em 0 0.1em 0.4em;
+}
+OPTION
+{
+	padding: 0 0.4em 0.1em;
+}
+FORM DIV
+{
+	margin: 0.8em 0;
+}
+BUTTON, INPUT[type='button']
+{
+	padding: 0.2em 0.3em 0.2em 0.1em;
+	line-height: 100%;
+}

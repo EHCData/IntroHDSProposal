@@ -1,0 +1,54 @@
+// JavaScript Document
+
+
+function setCookie(c_name, value, exdays)
+{
+	//set the expiry date as now + the specified number of days
+	var exdate=new Date();
+	exdate.setDate(exdate.getDate() + exdays);
+	
+	//add the expiry date string to the cookie value
+	var c_value = escape(value) + ((exdays==null) ? "" : "; expires="+exdate.toUTCString()+"; path=/");
+	
+	//set the cookie
+	document.cookie = c_name + "=" + c_value;
+}
+
+function getCookie(c_name)
+{
+	var i,x,y, ARRcookies = document.cookie.split(";");
+	
+	//check all the cookies
+	for (i=0;i<ARRcookies.length;i++)
+	{
+		x = ARRcookies[i].substr(0,ARRcookies[i].indexOf("="));
+		y = ARRcookies[i].substr(ARRcookies[i].indexOf("=")+1);
+		
+		//remove whitespace
+		x=x.replace(/^\s+|\s+$/g,"");
+		
+		//check if the specified cookie name exists - if so, return its value
+		if (x==c_name)
+		{
+			return unescape(y);
+		}
+	}
+}
+
+
+//check the cookie
+function checkCookie() {
+	
+	var cookie_status=getCookie("cookie_bar_hide");
+
+	if (cookie_status=="yes")
+	{
+		//hide the cookie statement bar
+		document.getElementById("cookies-bar").style.display="none";
+		
+		//move the entire page up to its default position
+		document.getElementById("page-container").style.top="0";
+		document.getElementById("page-container").style.margin="0";
+	}
+
+}

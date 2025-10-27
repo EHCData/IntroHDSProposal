@@ -1,0 +1,346 @@
+
+
+
+
+
+
+
+
+
+
+
+
+.standardTable TR
+{
+	padding: 0px;
+	margin: 0px;
+}
+.standardTable THEAD
+{
+	background: #CDDBE6;
+	padding: 0px;
+	margin: 0px;
+	color: #02578F;
+}
+.standardTable TR, .standardTable TD
+{
+	border: 0px solid #000000;
+	padding: 0px;
+	margin: 0px;
+	text-align: right;
+	border-bottom: 1px solid #F0F0F0;
+}
+.standardTable TBODY TH
+{
+	text-align: center;
+}
+.standardTable THEAD TH
+{
+	text-align: center;
+}
+.standardTable TBODY, .standardTable THEAD
+{
+	padding: 0px;
+	margin: 0px;
+}
+.standardTable TD
+{
+	padding: 5px;
+	margin: 0px;
+	background: #F4F6F9;
+}
+.standardTable TH
+{
+	text-align: right;
+	background-color: #004B8D;
+	color: #FFFFFF;
+	padding: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.sectionUpdate H3
+{
+	padding-left: 20px;
+	background: url(../images/content-images/update.png) no-repeat left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.publicationsTable THEAD TD
+{
+	padding: 3px;
+	margin: 0px;
+	background: #FF0000;
+}
+
+.publicationsTable TR, .publicationsTable TD
+{
+	border: 0px solid #000000;
+	padding: 0px;
+	margin: 0px;
+	text-align: center;
+}
+.publicationsTable TD
+{
+	padding: 5px;
+	text-align: left;
+	background: #F4F6F9;
+}
+.publicationsTable TH
+{
+	text-align: center;
+	width: 150px;
+	padding: 5px;
+	background: #02578F;
+	color: #FFFFFF;
+	vertical-align: top;
+}
+
+.contactTable THEAD TH
+{
+	background: #02578F;
+	color: #FFFFFF;
+	padding: 5px;
+	text-align: left;
+}
+.contactTable TD
+{
+	background: #F4F6F9;
+	padding: 5px;
+	text-align: left;
+	vertical-align: top;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**umb_name:H1*/
+h1{font-size: 20px;}
+
+/**umb_name:H2*/
+h2{font-size: 18px;}
+
+/**umb_name:H3*/
+h3{font-size: 16px;}
+
+/**umb_name:H4*/
+h4{font-size: 14px;}
+
+/**umb_name:Section Updates*/
+.sectionUpdate{background: #F4F6F9;
+padding: 5px;
+border: 1px solid #F0F0F0;}
+
+/**umb_name:Contact Table*/
+.contactTable{}
+
+/**umb_name:Standard Table*/
+.standardTable{padding: 0px;
+margin: 0px;
+width: 100%;}
+
+/**umb_name:Publications Table*/
+.publicationsTable{padding: 0px;
+margin: 0px;}
+
+/**umb_name:Alert*/
+div.alert{background: #F4F6F9 url(../images/content-images/div_alert.png) no-repeat 3px 3px;
+border: 1px solid #F0F0F0;}
+
+/**umb_name:Chart Link*/
+.chartLink{background: url(../images/content-images/chart.png) no-repeat right;
+padding-right: 13px;}
+
+/**umb_name:Center Text*/
+.centerText{text-align: center;}
+
+/**umb_name:External Link*/
+.ExternalLink{background: url(../images/content-images/link_external.png) no-repeat right;
+padding-right: 13px;}
+
+/**umb_name:External Link - DOC*/
+.doc_external{background: url(../images/content-images/doc_external.png) no-repeat right;
+padding-right: 26px;}
+
+/**umb_name:DOC Link*/
+.doc{background: url(../images/content-images/doc.png) no-repeat right;
+padding-right: 13px;}
+
+/**umb_name:External Link - PDF*/
+.pdf_external{background: url(../images/content-images/pdf_external.png) no-repeat right;
+padding-right: 26px;}
+
+/**umb_name:PDF Link*/
+.pdf{background: url(../images/content-images/pdf.png) no-repeat right;
+padding-right: 13px;}
+
+/**umb_name:External Link - PPT*/
+.ppt_external{background: url(../images/content-images/ppt_external.png) no-repeat right;
+padding-right: 26px;}
+
+/**umb_name:PPT Link*/
+.ppt{background: url(../images/content-images/ppt.png) no-repeat right;
+padding-right: 13px;}
+
+/**umb_name:External Link - XLS*/
+.xls_external{background: url(../images/content-images/xls_external.png) no-repeat right;
+padding-right: 26px;}
+
+/**umb_name:XLS Link*/
+.xls{background: url(../images/content-images/xls.png) no-repeat right;
+padding-right: 13px;}
+
+/**umb_name:Content*/
+div#content{float: left;
+width: 710px;
+padding-left: 10px;
+padding-right: 10px;}
+
+/**umb_name:Background Highlight*/
+div.BackgroundHighlight{style="background: #F4F6F9; padding: 5px; border: 1px solid #F0F0F0;"}

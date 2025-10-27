@@ -1,0 +1,17 @@
+var scotpho_palette = {
+    'pal1color': ['#08519c'],
+    'palnogroups': ['#08519c', '#bdd7e7', '#3182bd', '#6baed6', '#eff3ff'], 
+    'palbysexoverall': ['#000000', '#08519c', '#a6611a'], 
+    'palalccondition': ['#08519c', '#000000', '#bdd7e7'], 
+    'pal_cldmortage': ['#d0d1e6', '#c6dbef', '#9ecae1', '#6baed6', '#3182bd', '#08519c', '#000000'], 
+    'pal_cldmorbage': ['#d0d1e6', '#c6dbef', '#9ecae1', '#6baed6', '#4292c6', '#2171b5', '#084594', '#000000'], 
+    'pal_health_ineq_area': ['#800000', '#014181', '#F79646', '#4BACC6', '#8064A2', '#9BBB59', '#C0504D', '#4F81BD'], 
+    'pal_five_gradient': ['#abd9e9', '#74add1', '#4575b4', '#313695', '#022031'], 
+    'pal_simd': ['#a50026', '#313695', '#d73027', '#f46d43', '#fdae61', '#fee090', '#e0f3f8', '#abd9e9', '#74add1', '#4575b4', '#000000'], 
+    'pal_simd2': ['#543005', '#313695', '#8c510a', '#bf812d', '#dfc27d', '#f6e8c3', '#e0f3f8', '#abd9e9', '#74add1', '#4575b4', '#000000'], 
+    'pal_gradient9': ['#543005', '#8c510a', '#bf812d', '#dfc27d', '#d0d1e6', '#abd9e9', '#74add1', '#4575b4', '#313695'], 
+    'pal2bysex': ['#08519c', '#bdd7e7', '#a6611a', '#dfc27d'], 
+    'pal2bysexoverall': ['#000000', '#747474', '#08519c', '#bdd7e7', '#a6611a', '#dfc27d'], 
+    'pal3bysex': ['#08519c', '#4393c3', '#d1e5f0', '#8c510a', '#bf812d', '#f6e8c3'], 
+    'pal5bysex': ['#2166ac', '#4393c3', '#92c5de', '#d1e5f0', '#053061', '#8c510a', '#bf812d', '#dfc27d', '#f6e8c3', '#543005']
+}
